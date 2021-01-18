@@ -407,7 +407,7 @@ Func On_Clean() ; Ouvre Assdraw avec l'image en cours sur Aegisub
 		
 	EndIf
 	
-	ControlClick("Aegisub", "", "[CLASS:wxGLCanvasNR; INSTANCE:1]", "secondary")
+	ControlClick("Aegisub", "", "[TEXT:GLCanvasNR; INSTANCE:1]", "secondary")
 	Opt("WinTitleMatchMode", 2)
 	
 	Dim $MousePos = MouseGetPos()
